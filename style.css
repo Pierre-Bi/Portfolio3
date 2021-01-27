@@ -1,0 +1,627 @@
+:root {
+    --noire: #222831;
+    --rose: #ea97ad;
+  }
+
+body {
+    background-color: #222831;
+}
+
+.headbar{
+    width: 100%;
+    height: 300px;
+    background-color: var(--noire);
+}
+
+.headbar label{
+    font-size:130px;
+    font-family: 'Bungee Inline', cursive;
+    transition-duration: 0.6s;
+    color: #30475e;
+    margin-left:100px;
+    padding-top: 20px;
+}
+
+.headbar label:hover{
+    font-family: 'Bungee Shade', cursive;
+}
+
+.headbar h2{
+    font-size:80px;
+    font-family:bungee;
+    color: #375572;
+    margin-left:100px;
+    padding-top: 0px;
+
+}
+
+.photo{
+    background-color:var(--noire);
+    padding-top:30px;
+    width:100%;
+    height: 700px;
+}
+
+.photo img{
+    width: 100%;
+    height: 800px;
+    opacity: 0.5;
+}
+
+.footer{
+    width:100%;
+    height: 100px;
+    background-color:black;
+}
+
+.copywrite p{
+    font-size:20px;
+    margin-left: 640px;
+    padding-top:50px;
+}
+
+.txt {
+    background-color:var(--noire);
+    color: #f05454;
+    padding-left:400px;
+    padding-bottom:40px;
+    padding-top:150px;
+}
+
+.txt label{
+    font-size:100px;
+    font-family:'Stardos Stencil', cursive;
+}
+
+
+.bigContainer{
+    display:flex;
+    background-color: var(--noire);
+}
+
+.butn1{
+    width:45%;
+    height: 400px;
+
+    margin-left:40px;
+    margin-top:20px;
+
+}
+
+.butn1 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color: white;
+    transition-duration:0.6s ;
+
+}
+
+.butn1 button:hover{
+    border: none;
+    background-color: #f05454;
+}
+
+.butn1 img{
+    width:85%;
+    height: 80%;
+  
+}
+
+.modal-body{
+
+}
+
+.modal-body img{
+    width:100%;
+    height: 100%;
+}
+/*--------------------------------*/
+.butn2 {
+
+    width:45%;
+    height: 400px;
+
+    margin-left:40px;
+    margin-top:100px;
+}
+
+.butn2 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn2 button:hover{
+    border: none;
+    background-color: #f05454;
+}
+
+.butn2 img{
+    width:85%;
+    height: 80%;
+  
+}
+
+/*--------------------*/
+
+.txt1 {
+    background-color:var(--noire);
+    color: #944e6c;
+    padding-left:500px;
+    padding-bottom:40px;
+    padding-top:150px;
+    
+}
+
+.txt1 label{
+    font-size:100px;
+    font-family: 'Stardos Stencil', cursive;
+}
+
+.bigContainer2{
+    display:flex;
+    background-color:var(--noire);
+}
+
+.butn3 {
+
+    width:25%;
+    height: 250px;
+
+    margin-left:100px;
+    margin-top:45px;
+}
+
+.butn3 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    border-radius: 300px;
+    background-color:white;
+    transition-duration:0.6s;
+}
+
+.butn3 button:hover{
+    border: none;
+    background-color:#944e6c;
+}
+
+.butn3 img{
+    width:95%;
+    height: 90%;
+  
+}
+
+/*--------------------*/
+
+.butn4 {
+    width:20%;
+    height: 340px;
+
+    margin-left:130px;
+    margin-top:0px;
+}
+
+.butn4 button{
+    width:100%;
+    height: 100%;
+
+    border-radius:600px;
+    border: none;
+    background-color:white;
+    transition-duration:0.6s;
+}
+
+.butn4 button:hover{
+    border: none;
+    background-color: #944e6c;
+}
+
+.butn4 img{
+    width:80%;
+    height: 90%;
+  
+}
+
+/*--------------------*/
+
+.butn5 {
+
+    width:20%;
+    height: 260px;
+
+    margin-left:150px;
+    margin-top:40px;
+}
+
+.butn5 button{
+    width:100%;
+    height: 100%;
+
+    border-radius: 100px;
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn5 button:hover{
+    border: none;
+    background-color: #944e6c;
+}
+
+.butn5 img{
+    width:80%;
+    height: 80%;
+  
+}
+
+/*--------------------*/
+
+.txt2 {
+    background-color:var(--noire);
+    color: var(--rose);
+    padding-left:200px;
+    padding-bottom:40px;
+    padding-top:150px;
+}
+
+.txt2 label{
+    font-size:100px;
+    font-family: 'Stardos Stencil', cursive;
+}
+
+
+
+.bigContainer3{
+    display:flex;
+    background-color: var(--noire);
+}
+
+.butn6 {
+
+    width:30%;
+    height: 300px;
+
+    margin-left:50px;
+    margin-top:50px;
+}
+
+
+.butn6 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s;
+}
+
+.butn6 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn6 img{
+    width:85%;
+    height: 80%;
+}
+
+/*--------------------*/
+
+.butn7{
+
+    width:25%;
+    height: 500px;
+
+    margin-left:60px;
+    margin-top:90px;
+}
+
+.butn7 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn7 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn7 img{
+    width:80%;
+    height: 80%;
+  
+}
+
+/*--------------------*/
+
+.butn8 {
+
+    width:30%;
+    height: 300px;
+
+    margin-left:60px;
+    margin-top:340px;
+}
+
+.butn8 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn8 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn8 img{
+    width:85%;
+    height: 80%;
+  
+}
+
+/*--------------------*/
+
+.bigContainer4{
+    display:flex;
+    background-color: var(--noire);
+    padding-top: 50px;
+    padding-bottom:100px;
+}
+
+.butn9{
+    width:25%;
+    height:500px;
+
+    margin-left:250px;
+    margin-top:20px;
+
+}
+
+.butn9 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color: white;
+    transition-duration:0.6s ;
+}
+
+.butn9 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn9 img{
+    width:80%;
+    height: 80%;
+  
+}
+
+.modal-body img{
+    width:100%;
+    height: 100%;
+}
+
+/*----------------*/
+
+.butn10 {
+
+    width:40%;
+    height: 400px;
+
+    margin-left:100px;
+    margin-top:100px;
+}
+
+.butn10 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn10 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn10 img{
+    width:85%;
+    height: 80%;
+  
+}
+
+/*----------------*/
+
+.bigContainer5{
+    display:flex;
+    background-color: var(--noire);
+}
+
+.butn11 {
+
+    width:40%;
+    height: 400px;
+
+    margin-left:125px;
+    margin-top:100px;
+}
+
+.butn11 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn11 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn11 img{
+    width:80%;
+    height: 80%;
+  
+}
+
+/*----------------*/
+
+.butn12 {
+
+    width:40%;
+    height: 400px;
+
+    margin-left:50px;
+    margin-top:75px;
+}
+
+.butn12 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn12 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn12 img{
+    width:80%;
+    height: 80%;
+  
+}
+
+/*----------------*/
+
+.bigContainer6{
+    display:flex;
+    background-color: var(--noire);
+}
+
+.butn13 {
+
+    width:40%;
+    height: 400px;
+
+    margin-left:100px;
+    margin-top:50px;
+}
+
+.butn13 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn13 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn13 img{
+    width:80%;
+    height: 80%;
+  
+}
+
+/*----------------*/
+
+.butn14 {
+
+    width:40%;
+    height: 400px;
+
+    margin-left:50px;
+    margin-top:25px;
+}
+
+.butn14 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color:white;
+    transition-duration:0.6s ;
+}
+
+.butn14 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn14 img{
+    width:80%;
+    height: 80%;
+  
+}
+
+/*----------------*/
+
+.bigContainer7{
+    display:flex;
+    background-color: var(--noire);
+    padding-top: 100px;
+}
+
+.butn15 {
+
+    width:40%;
+    height: 600px;
+
+    margin-left:450px;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.butn15 button{
+    width:100%;
+    height: 100%;
+
+    border: none;
+    background-color: white;
+    transition-duration:0.6s ;
+}
+
+.butn15 button:hover{
+    border: none;
+    background-color: var(--rose);
+}
+
+.butn15 img{
+    width:80%;
+    height: 80%;
+  
+}
+
+
+.modal-title{
+    font-size:50px;
+    font-family: 'Hepta Slab', serif;
+}
